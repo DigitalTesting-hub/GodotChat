@@ -1,0 +1,9 @@
+node_modules/
+.git/
+.gitignore
+.replit
+client/node_modules/
+dist/
+build/
+.DS_Store
+*.log
