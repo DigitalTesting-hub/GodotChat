@@ -1,0 +1,54 @@
+2025-11-24T14:19:11.193461977Z ==> Cloning from https://github.com/DigitalTesting-hub/GodotChatLive
+2025-11-24T14:19:11.813865876Z ==> Checking out commit 8739f972ceb307a4558b80a89aa95d7723bf7dd0 in branch main
+2025-11-24T14:19:21.968556002Z ==> Using Node.js version 22.16.0 (default)
+2025-11-24T14:19:21.993429941Z ==> Docs on specifying a Node.js version: https://render.com/docs/node-version
+2025-11-24T14:19:24.53040392Z ==> Running build command 'npm install --include=dev && npm run build'...
+2025-11-24T14:19:39.077762061Z 
+2025-11-24T14:19:39.077792443Z added 499 packages, and audited 500 packages in 14s
+2025-11-24T14:19:39.077808614Z 
+2025-11-24T14:19:39.077814465Z 71 packages are looking for funding
+2025-11-24T14:19:39.077824395Z   run `npm fund` for details
+2025-11-24T14:19:39.097558658Z 
+2025-11-24T14:19:39.097579969Z 9 vulnerabilities (3 low, 5 moderate, 1 high)
+2025-11-24T14:19:39.097583239Z 
+2025-11-24T14:19:39.097586789Z To address issues that do not require attention, run:
+2025-11-24T14:19:39.09759003Z   npm audit fix
+2025-11-24T14:19:39.09759276Z 
+2025-11-24T14:19:39.09759559Z To address all issues (including breaking changes), run:
+2025-11-24T14:19:39.09759884Z   npm audit fix --force
+2025-11-24T14:19:39.09760144Z 
+2025-11-24T14:19:39.09760474Z Run `npm audit` for details.
+2025-11-24T14:19:39.264233988Z 
+2025-11-24T14:19:39.264256349Z > rest-express@1.0.0 build
+2025-11-24T14:19:39.26426293Z > vite build && esbuild server/index-prod.ts --platform=node --packages=external --bundle --format=esm --outfile=dist/index.js
+2025-11-24T14:19:39.26427278Z 
+2025-11-24T14:19:39.517088622Z vite v5.4.20 building for production...
+2025-11-24T14:19:39.566984358Z transforming...
+2025-11-24T14:19:40.672364979Z 
+2025-11-24T14:19:40.67239181Z A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+2025-11-24T14:19:43.452708493Z ✓ 1667 modules transformed.
+2025-11-24T14:19:43.692125072Z rendering chunks...
+2025-11-24T14:19:43.700488326Z computing gzip size...
+2025-11-24T14:19:43.710396695Z ../dist/public/index.html                   0.93 kB │ gzip:  0.49 kB
+2025-11-24T14:19:43.71048547Z ../dist/public/assets/index-Bjngnzzp.css   69.71 kB │ gzip: 11.30 kB
+2025-11-24T14:19:43.710614318Z ../dist/public/assets/index-gFhoekaJ.js   292.02 kB │ gzip: 93.99 kB
+2025-11-24T14:19:43.710857073Z ✓ built in 4.17s
+2025-11-24T14:19:43.746545076Z 
+2025-11-24T14:19:43.746567627Z   dist/index.js  6.2kb
+2025-11-24T14:19:43.746572417Z 
+2025-11-24T14:19:43.746576957Z ⚡ Done in 3ms
+2025-11-24T14:20:22.646584585Z ==> Uploading build...
+2025-11-24T14:20:34.095729677Z ==> Uploaded in 5.3s. Compression took 6.2s
+2025-11-24T14:20:34.152813037Z ==> Build successful 🎉
+2025-11-24T14:21:30.838912809Z ==> Deploying...
+2025-11-24T14:22:38.48592275Z ==> Running 'node dist/index.js'
+2025-11-24T14:22:40.041902021Z ==> No open ports detected, continuing to scan...
+2025-11-24T14:22:40.236727893Z ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+2025-11-24T14:22:43.777813752Z 2:22:43 PM [express] serving on port 10000
+2025-11-24T14:22:51.511157454Z ==> Your service is live 🎉
+2025-11-24T14:22:51.541206861Z ==> 
+2025-11-24T14:22:51.57027147Z ==> ///////////////////////////////////////////////////////////
+2025-11-24T14:22:51.600261777Z ==> 
+2025-11-24T14:22:51.628226485Z ==> Available at your primary URL https://godotchatlive.onrender.com
+2025-11-24T14:22:51.661855923Z ==> 
+2025-11-24T14:22:51.69038273Z ==> ///////////////////////////////////////////////////////////
